@@ -1,14 +1,14 @@
 import math
 import random
 file = open("pierwiastek.txt", "w")
-for i in range(10000000):
-    a = random.randint(9999, 1000000)
+for i in range(1000):
+    a = random.randint(1000, 1000000)
     b = (math.sqrt(a))
     if b == int(b):
-        print(a)
+        print(a, file=file)
         print(b, file=file)
         print("udalo sie")
-        print("")
+        print("", file=file)
 
     else:
         print(a)
