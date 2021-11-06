@@ -9,7 +9,6 @@ for i in range(1000):
         print(b, file=file)
         print("udalo sie")
         print("", file=file)
-
     else:
         print(a)
         print(b)
