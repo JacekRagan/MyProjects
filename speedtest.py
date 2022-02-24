@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import pyautogui as pya
-driver = webdriver.Chrome('C:\Program Files (x86)\chromedriver.exe')
+driver = webdriver.Chrome('sciezka do googledrive')
 driver.get('https://10fastfingers.com/typing-test/english')
 time.sleep(2)
 cookie = driver.find_element(By.XPATH,'/html/body/div[1]/div/div[4]/div[1]/div[2]/button[4]').click()
